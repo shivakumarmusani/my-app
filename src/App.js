@@ -4,17 +4,14 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./Components/Pages/Home"; //Home page
 import RestaurantList from "./Components/Pages/RestaurantList";// Restaurant List
-import RestaurantDetail from "./Components/Pages/RestaurantDetail";//Individual Restaurant Detail
-// import Navbar from "./components/Navbar"; // Navigation bar
-// import Footer from "./components/Footer"; // Footer component
+//import RestaurantDetail from "./Components/Pages/RestaurantDetail";//Individual Restaurant Detail
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/restaurants" element={<RestaurantList />} />
-      <Route path="/restaurant/:id" element={<RestaurantDetail />} />
+      <Route path="/RestaurantList" element={<RestaurantList />} />
       </Routes>
       </BrowserRouter>
   );
