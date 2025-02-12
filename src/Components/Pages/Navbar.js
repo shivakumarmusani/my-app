@@ -15,23 +15,14 @@ export default function Navbar(){
         <li class="nav-item">
             <Link to="/"><a class="nav-link active" aria-current="page" href="#">Home</a></Link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <p class="d-inline-flex gap-4">
+        <Link to="/"><button type="button" class="btn btn-primary">Home</button></Link>
+        <Link to="/RestaurantList"><button type="button" class="btn btn-primary">RestaurantList</button></Link>
+        <Link to="/RestaurantDetail"><button type="button" class="btn btn-primary">RestaurantDetail</button></Link>
+        <Link to="/Cart"><button type="button" class="btn btn-primary">Cart</button></Link>
+        <Link to="/Checkout"><button type="button" class="btn btn-primary">Checkout</button></Link>
+        </p>
           </ul>
-        </li>
-      </ul>
     </div>
   </div>
 </nav>
