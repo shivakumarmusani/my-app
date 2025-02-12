@@ -1,11 +1,14 @@
 import React from "react";
-import RestaurantList from "./RestaurantList";
+// import RestaurantList from "./RestaurantList";
+// import RestaurantDetail from "./RestaurantDetail";
+// import Navbar from "./Navbar";
 
 function Home(){
     return(
         <div>
-        <h1>welcome home dhjkfhaksdfjkfjkasbd</h1>
-        <RestaurantList/>
+        <h1>welcome to Home</h1>
+        {/* <RestaurantList/>
+        <RestaurantDetail/> */}
 
         </div>
     );
