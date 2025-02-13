@@ -1,5 +1,5 @@
 import React from "react";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 function GetApp() {
     return (
@@ -15,7 +15,7 @@ function GetApp() {
                 </div>
 
                 <div class="col-6">
-                    <div class="card" style={{ width: "18rem;" }}>
+                    <div class="card" style={{ height:"0rem", width: "18rem;" }}>
                         <h1 style={{padding:"40px"}}>Get the Zomato App</h1>
                         <p style={{padding:"40px"}}>We will send you a link, open it on your phone to download the app</p>
                         <div style={{ paddingLeft: "27px"}}>
@@ -32,6 +32,7 @@ function GetApp() {
                     </div>
                 </div>
             </div>
+            <div><Footer/></div>
         </>
     );
 }

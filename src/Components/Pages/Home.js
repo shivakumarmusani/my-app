@@ -2,6 +2,7 @@ import React from "react";
 // import RestaurantList from "./RestaurantList";
 // import RestaurantDetail from "./RestaurantDetail";
 // import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -58,6 +59,7 @@ function Home() {
 
                 </div>
             </div>
+            <div><Footer/></div>
         </>
     );
 }
