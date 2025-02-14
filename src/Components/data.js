@@ -8,19 +8,19 @@ export const data = [
         habit:"anime"
     },
     {
-        id:1,
+        id:2,
         name:"ravi",
         mobile: 16452441,
         habit:"talk"
     },
     {
-        id:1,
+        id:3,
         name:"ajay",
         mobile: 999,
         habit:"rummy"
     },
     {
-        id:1,
+        id:4,
         name:"bannu",
         mobile: 888,
         habit:"youtube"

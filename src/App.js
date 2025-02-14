@@ -27,11 +27,3 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //   );
 // }
 // export default App;
-import { data } from "react-router-dom";
- function App(){
-  return(
-
-  );
- }
-
- export 
