@@ -3,6 +3,7 @@ import React from "react";
 // import RestaurantDetail from "./RestaurantDetail";
 // import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 
 function Home() {
@@ -10,7 +11,7 @@ function Home() {
         <>
             <div>
                 <h1>welcome to Home</h1>
-                <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" />
+                <img className="Homeimg" src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" />
             </div>
             <div>
                 <div class="row row-cols-1 row-cols-md-5 g-4 p-4">
