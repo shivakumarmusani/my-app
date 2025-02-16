@@ -12,13 +12,13 @@ export default function Navbar(){
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <p class="d-inline-flex gap-4">
-        <Link to="/"><button type="button" class="btn btn-primary">Home</button></Link>
-        <Link to="/GetApp"><button type="button" class="btn btn-primary">GetApp</button></Link>
-        <Link to="/RestaurantList"><button type="button" class="btn btn-primary">RestaurantList</button></Link>
-        <Link to="/RestaurantDetail"><button type="button" class="btn btn-primary">RestaurantDetail</button></Link>
-        <Link to="/Cart"><button type="button" class="btn btn-primary">Cart</button></Link>
-        <Link to="/Checkout"><button type="button" class="btn btn-primary">Checkout</button></Link>
-        <Link to="/Login"><button type="button" class="btn btn-primary">Login</button></Link>
+        <Link to="/"><button type="button" class="btn btn-Light">Home</button></Link>
+        <Link to="/GetApp"><button type="button" class="btn btn-Light">GetApp</button></Link>
+        <Link to="/RestaurantList"><button type="button" class="btn btn-Light">RestaurantList</button></Link>
+        <Link to="/RestaurantDetail"><button type="button" class="btn btn-Light">RestaurantDetail</button></Link>
+        <Link to="/Cart"><button type="button" class="btn btn-Light">Cart</button></Link>
+        <Link to="/Checkout"><button type="button" class="btn btn-Light">Checkout</button></Link>
+        <Link to="/Login"><button type="button" class="btn btn-Light">Login</button></Link>
         </p>
           </ul>
     </div>

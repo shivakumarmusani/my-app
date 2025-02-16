@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Footer/Footer.css";
+import "./Getapp.css";
 
 
 function GetApp() {
@@ -54,8 +54,9 @@ function GetApp() {
           </div>
         </div>
       </section>
-            <div><Footer/></div>
+            
         </>
     );
 }
+
 export default GetApp;
