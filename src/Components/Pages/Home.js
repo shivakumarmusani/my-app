@@ -1,9 +1,5 @@
 import React from "react";
-// import RestaurantList from "./RestaurantList";
-// import RestaurantDetail from "./RestaurantDetail";
-// import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./Footer/Footer";
 
 
 function Home() {

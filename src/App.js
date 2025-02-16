@@ -1,6 +1,6 @@
 import React from "react";
 //import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./Components/Pages/Home"; //Home page
 import RestaurantList from "./Components/Pages/RestaurantList";// Restaurant List
@@ -8,8 +8,9 @@ import RestaurantDetail from "./Components/Pages/RestaurantDetail";//Individual 
 import Navbar from "./Components/Pages/Navbar";
 import Cart from "./Components/Pages/Cart";
 import Checkout from "./Components/Pages/Checkout";
-import GetApp from "./Components/Pages/GetApp";
-import "./App.css";
+import GetApp from "./Components/Pages/GetApp/GetApp";
+import Login from "./Components/Pages/Login/Login";
+
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/Cart" element={<Cart />} />
       <Route path="/Checkout" element={<Checkout />} />
       <Route path="/GetApp" element={<GetApp />} />
+      <Route path="/Login" element={<Login />} />
       </Routes>
       </BrowserRouter>
       

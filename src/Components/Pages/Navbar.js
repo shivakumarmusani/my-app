@@ -18,6 +18,7 @@ export default function Navbar(){
         <Link to="/RestaurantDetail"><button type="button" class="btn btn-primary">RestaurantDetail</button></Link>
         <Link to="/Cart"><button type="button" class="btn btn-primary">Cart</button></Link>
         <Link to="/Checkout"><button type="button" class="btn btn-primary">Checkout</button></Link>
+        <Link to="/Login"><button type="button" class="btn btn-primary">Login</button></Link>
         </p>
           </ul>
     </div>
