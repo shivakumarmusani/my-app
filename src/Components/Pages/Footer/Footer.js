@@ -1,9 +1,9 @@
-// import "../Pages/Footer.css";
 import './Footer.css';
 
 function Footer() {
   return (
     <>
+    <hr/>
       <div>
         <br/>
         <div class="container text-center">
@@ -41,11 +41,15 @@ function Footer() {
               </div>
             <div class="col-2">
               <h5>Social links</h5>
-              image
+              
+              <img className='app-img1' src='https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png' />
+              <img className='app-img1' src='https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png' />
+          
             </div>
             </div>
             </div>
             <br/>
+            <hr/>
             <ul>
             <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2025 © Zomato™ Ltd. All rights reserved.</p>
             </ul>
