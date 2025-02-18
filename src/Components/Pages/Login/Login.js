@@ -1,21 +1,26 @@
 import React from "react";
+import "./Login.css";
 
 function Login() {
-    return(
-      <>
-      <div>bjdbbdffgdhdfhhjjdgfgdjgdf
-      
-      <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-</div>
-</>
-    );
+  return (
+    <>
+      <div className="container">
+      <h2 className="login">Login</h2>
+        <form>
+        <input type="email"
+        name="email"
+        placeholder="Email ID" />
+        <input
+        type="tel"
+        name="mobile"
+        placeholder="mobile numer" />
+        <input type="password"
+        placeholder="password" />
+        <button type="submit">Login</button>
+        </form>
+      </div>
+    </>
+  );
 }
 
 export default Login;
