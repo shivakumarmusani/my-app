@@ -1,4 +1,4 @@
-.container {
+.login-container {
     max-width: 400px;
     margin-top: 70px;
     margin: auto;
@@ -10,7 +10,7 @@
 
 }
 
-.container:hover {
+.login-container:hover {
     background-color: whitesmoke;
 }
 

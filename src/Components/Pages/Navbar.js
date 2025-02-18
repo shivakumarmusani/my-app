@@ -12,13 +12,13 @@ export default function Navbar(){
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <p class="d-inline-flex gap-4">
-        <Link to="/"><button type="button" class="btn btn-Light">Home</button></Link>
-        <Link to="/GetApp"><button type="button" class="btn btn-Light">GetApp</button></Link>
-        <Link to="/RestaurantList"><button type="button" class="btn btn-Light">RestaurantList</button></Link>
+        <Link to="/"><button type="button" class="btn btn-dark">Home</button></Link>
+        <Link to="/GetApp"><button type="button" class="btn btn-secondary">GetApp</button></Link>
+        <Link to="/RestaurantList"><button type="button" class="btn btn-secondary">RestaurantList</button></Link>
         <Link to="/RestaurantDetail"><button type="button" class="btn btn-Light">RestaurantDetail</button></Link>
         <Link to="/Cart"><button type="button" class="btn btn-Light">Cart</button></Link>
         <Link to="/Checkout"><button type="button" class="btn btn-Light">Checkout</button></Link>
-        <Link to="/Login"><button type="button" class="btn btn-Light">Login</button></Link>
+        <Link to="/Login"><button type="button" class="btn btn-link">Login</button></Link>
         </p>
           </ul>
     </div>

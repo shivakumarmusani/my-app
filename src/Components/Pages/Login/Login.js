@@ -4,7 +4,7 @@ import "./Login.css";
 function Login() {
   return (
     <>
-      <div className="container">
+      <div className="login-container">
       <h2 className="login">Login</h2>
         <form>
         <input type="email"
