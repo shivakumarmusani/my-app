@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "./Footer/Footer";
+import { data1 } from "../data1";
 
 
 function Home() {
@@ -55,7 +56,19 @@ function Home() {
                         </div>
                     </div>
 
-                </div>
+                
+
+                {data1.map((data1copy)=>{return(<div>
+                <div class="card" style={{width: "1rem;"}}>
+  <img src={data1copy.img} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">{data1copy.name}</h5>
+    <p class="card-text">{data1copy.mobile}</p>
+    <a href="#" class="btn btn-primary">{data1copy.habit}</a>
+  </div>
+</div>
+</div>)})}
+</div>
             </div>
             <div><Footer/></div>
         </>

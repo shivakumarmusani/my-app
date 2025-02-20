@@ -4,13 +4,15 @@ import { data1 } from "../data1";
 function Checkout(){
     return(
         <>
-        {data1.map((data1copy)=>{return(<div><h1>{data1copy.name}</h1></div>)})}
-        <div><h1>checkout1</h1>
+        {data1.map((data1copy)=>{return(<div><h1>{data1copy.name}</h1><div></div>{data1copy.mobile}</div>)})}
+        <div><h1>checkout1{data1.id}</h1>
         <h1>checkout1</h1>
         <h1>checkout1</h1>
         <h1>checkout1</h1>
         <h1>checkout1</h1>
         </div>
+
+        {/* {.map(()=>{return(<div>{}</div>)})} */}
         </>
     );
 }
